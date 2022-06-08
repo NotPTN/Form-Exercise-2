@@ -1,0 +1,125 @@
+<html>
+	
+	<head>
+		<title>
+			Form Exercise 2
+		</title>
+	</head>
+
+	<body>
+		<form>
+			<fieldset>
+				<legend>
+					<b>
+						Your Message to "Example" Cafe:
+					</b>
+				</legend>
+				<table border="0">
+					<tr>
+						<td style="width: 125px;">
+							<label>
+								To
+							</label>
+						</td>
+						<td>
+							<input type="text" list="positions" name="to" id="to">
+							<datalist id="positions">
+								<option value="Owner"></option>
+								<option value="Manager"></option>
+								<option value="Receptionist"></option>
+								<option value="Waiter"></option>
+								<option value="Deliverer"></option>
+							</datalist>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label>
+								Your email
+							</label>
+						</td>
+						<td>
+							<input type="email" name="Email" id="Email">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Message
+						</td>
+						<td>
+							<textarea rows="15" cols="50"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<label for="af">
+								Attatch File:
+							</label>
+							<br>
+							<input type="file" name="af" id="af">
+							<input type="submit" name="Send" value="Send">
+						</td>
+					</tr>
+					<tr>
+						<td style="padding-bottom: 25;">
+							<label>
+								Payment Method:
+							</label>
+						</td>
+						<td style="padding-top: 20px">
+							<input type="checkbox" id="o1" name="o1">
+							<label for="o1">
+								Cash
+							</label>
+							<br>
+							<input type="checkbox" id="o2" name="o2">
+							<label for="o2">
+								Cheque
+							</label>
+							<br>
+							<input type="checkbox" id="o3" name="o3">
+							<label for="o3">
+								KPay/WavePay
+							</label>
+							<br>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+			<br>
+			<fieldset>
+				<legend>
+					<b>
+						How you found us:
+					</b>
+				</legend>
+				<table border="0" style="width: 500px;">
+					<tr>
+						<td width="50%">
+							<label for="src">
+								How did you hear of us
+							</label>
+						</td>
+						<td>
+							<select id="src" name="Src">
+								<option>Google</option>
+								<option>Local newspaper ad</option>
+								<option>Friend</option>
+								<option>Other</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input type="checkbox" name="vf" id="vf" checked>
+							<label for="vf">
+								Ensure this box is checked if you would like to receive email updates.
+							</label>
+						</td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+	</body>
+</html>
